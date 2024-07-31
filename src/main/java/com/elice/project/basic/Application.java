@@ -1,4 +1,4 @@
-package com.elice.project;
+package com.elice.project.basic;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -10,7 +10,7 @@ public class Application {
 
         DatabaseConnectionManager dbManager = context.getBean(DatabaseConnectionManager.class);
         Connection connection = dbManager.getConnection();
-        System.out.println(STR."데이터 베이스 연결 성공: \{connection != null}");
+        System.out.println("데이터 베이스 연결 성공: " + connection != null);
         context.close();
     }
 }

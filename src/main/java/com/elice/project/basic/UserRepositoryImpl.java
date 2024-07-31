@@ -1,4 +1,4 @@
-package com.elice.project;
+package com.elice.project.basic;
 
 public class UserRepositoryImpl implements UserRepository {
     @Override

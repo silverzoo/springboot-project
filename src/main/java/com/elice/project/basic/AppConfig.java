@@ -1,4 +1,4 @@
-package com.elice.project;
+package com.elice.project.basic;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

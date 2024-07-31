@@ -1,4 +1,4 @@
-package com.elice.project;
+package com.elice.project.basic;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
