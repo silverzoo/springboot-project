@@ -24,6 +24,13 @@ dependencies {
 	//의존성 라이브러리 추가(버전 이슈로 삭제)
 	//implementation 'org.springframework:spring-context:5.3.10'
 
+	//AOP 주입
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+
+	// lombok 주입 Gradle 5.x 이상
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
