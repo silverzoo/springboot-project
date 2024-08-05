@@ -1,4 +1,4 @@
-package com.elice.project.ch0604.post;
+package com.elice.project.post;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

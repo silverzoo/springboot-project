@@ -1,4 +1,4 @@
-package com.elice.project.ch0604.practice1;
+package com.elice.project.ch0604;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class PostController {
 
+    //현재 hitml 페이지는 다 지워진 상태. 코드리뷰만 보는 용도
     @GetMapping("/")
     public String home(Model model) {
         // Model로 전달되는 값을 변경해서 확인해보세요.

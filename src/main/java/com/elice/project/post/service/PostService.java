@@ -1,12 +1,11 @@
-package com.elice.project.ch0604.post.service;
+package com.elice.project.post.service;
 
-import com.elice.project.ch0604.post.domain.Post;
-import com.elice.project.ch0604.post.dto.PostDTO;
+import com.elice.project.post.domain.Post;
+import com.elice.project.post.dto.PostDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @Service
 public class PostService {

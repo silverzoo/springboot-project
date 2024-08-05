@@ -1,4 +1,4 @@
-package com.elice.project.ch0604.post.dto;
+package com.elice.project.post.dto;
 
 //Data Transfer Object
 //dto 는 Object 와 Object 사이에 데이터를 전달하기 위한 객체

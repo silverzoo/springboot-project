@@ -1,4 +1,4 @@
-package com.elice.project.ch0604.post.domain;
+package com.elice.project.post.domain;
 
 public class Post {
     private Long id;

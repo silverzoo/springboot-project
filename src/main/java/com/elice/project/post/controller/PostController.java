@@ -1,8 +1,8 @@
-package com.elice.project.ch0604.post.controller;
+package com.elice.project.post.controller;
 
-import com.elice.project.ch0604.post.domain.Post;
-import com.elice.project.ch0604.post.dto.PostDTO;
-import com.elice.project.ch0604.post.service.PostService;
+import com.elice.project.post.domain.Post;
+import com.elice.project.post.dto.PostDTO;
+import com.elice.project.post.service.PostService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
