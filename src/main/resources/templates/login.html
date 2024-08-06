@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+<body>
+    <form action="/api/login/submit" method="POST">
+        <h1>회원가입</h1>
+        <div>
+        <label for="name">이름</label>
+        <input id="name" type="text" name="name"/>
+        </div>
+        <div>
+        <label for="email">이메일</label>
+        <input id="email" type="email" name="email"/>
+        </div>
+        <div>
+        <label for="password">비밀번호</label>
+        <input id="password" type="password" name="password"/>
+        </div>
+        <button type="submit">제출</button>
+    </form>
+</body>
+</html>

@@ -22,4 +22,9 @@ public class TestController {
         return "about";
     }
 
+    @GetMapping("/login")
+    public String getLoginPage() {
+        return "login";
+    }
+
 }
