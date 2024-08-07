@@ -27,4 +27,9 @@ public class TestController {
         return "login";
     }
 
+    @GetMapping("/js-page")
+    public String getJsPage() {
+        return "js";
+    }
+
 }
