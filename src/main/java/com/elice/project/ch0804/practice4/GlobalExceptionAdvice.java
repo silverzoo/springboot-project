@@ -18,8 +18,10 @@ public class GlobalExceptionAdvice {
     // 지시사항을 참고하여 코드를 작성해 보세요.
     @ExceptionHandler
     public ResponseEntity exceptionHandle(MethodArgumentNotValidException e) {
+        // 여기서 FieldError 타입은 org.springframework.validation.FieldError 을 의미.
         List<FieldError> fieldErrors = e.getBindingResult().getFieldErrors();
 
+        // FieldError 를 사용자 정의 ErrorResult.FieldError 로 매핑
         List<ErrorResult.FieldError> errorLogs
                 = fieldErrors.stream()
                 .map(error -> new ErrorResult.FieldError(
