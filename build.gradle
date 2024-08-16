@@ -53,6 +53,10 @@ dependencies {
 
 	// thymeleaf 주입
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	// springboot 2.3 부터 Validation Starter 가 Spring Boot Web과 분리가 되면서 동작을 하지 않는다.
+	// 그래서 dependencies 를 추가로 작성해야 한다.
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
 }
 
 tasks.named('test') {
