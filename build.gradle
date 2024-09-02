@@ -61,6 +61,8 @@ dependencies {
 	//JPA
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.2.0'
 
+ 	implementation group: 'org.javassist', name: 'javassist', version: '3.15.0-GA'
+
 }
 
 tasks.named('test') {
