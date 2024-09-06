@@ -63,6 +63,9 @@ dependencies {
 
  	implementation group: 'org.javassist', name: 'javassist', version: '3.15.0-GA'
 
+	//WebSocket
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
 }
 
 tasks.named('test') {
