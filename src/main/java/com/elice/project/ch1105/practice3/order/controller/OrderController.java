@@ -1,4 +1,4 @@
-package com.elice.project.ch1105.practice3.controller;
+package com.elice.project.ch1105.practice3.order.controller;
 
 import com.elice.project.ch1105.practice3.order.model.OrderRequest;
 import com.elice.project.ch1105.practice3.order.model.OrderResponse;

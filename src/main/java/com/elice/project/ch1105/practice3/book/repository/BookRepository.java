@@ -1,4 +1,4 @@
-package com.elice.project.ch1105.practice3.repository;
+package com.elice.project.ch1105.practice3.book.repository;
 
 import com.elice.project.ch1105.practice3.book.domain.Book;
 import org.springframework.data.jpa.repository.JpaRepository;

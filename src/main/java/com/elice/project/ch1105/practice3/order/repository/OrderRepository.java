@@ -1,4 +1,4 @@
-package com.elice.project.ch1105.practice3.repository;
+package com.elice.project.ch1105.practice3.order.repository;
 
 
 import com.elice.project.ch1105.practice3.order.domain.Order;

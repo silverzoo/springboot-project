@@ -1,4 +1,4 @@
-package com.elice.project.ch1105.practice3.controller;
+package com.elice.project.ch1105.practice3.chat.controller;
 
 import com.elice.project.ch1105.practice3.chat.model.ChatCreateRequest;
 import com.elice.project.ch1105.practice3.chat.model.ChatCreateResponse;

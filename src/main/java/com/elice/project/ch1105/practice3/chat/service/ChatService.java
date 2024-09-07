@@ -3,7 +3,7 @@ package com.elice.project.ch1105.practice3.chat.service;
 import com.elice.project.ch1105.practice3.chat.domain.Chat;
 import com.elice.project.ch1105.practice3.chat.model.ChatCreateResponse;
 import com.elice.project.ch1105.practice3.chat.model.ChatInfoResponse;
-import com.elice.project.ch1105.practice3.repository.ChatRepository;
+import com.elice.project.ch1105.practice3.chat.repository.ChatRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

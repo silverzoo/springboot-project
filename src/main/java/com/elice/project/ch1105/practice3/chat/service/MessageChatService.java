@@ -1,9 +1,9 @@
 package com.elice.project.ch1105.practice3.chat.service;
 
-import com.elice.project.ch1105.practice3.repository.ChatRepository;
+import com.elice.project.ch1105.practice3.chat.repository.ChatRepository;
 import com.elice.project.ch1105.practice3.common.exception.DataNotFoundException;
 import com.elice.project.ch1105.practice3.socket.model.MessageModel;
-import com.elice.project.ch1105.practice3.repository.MessageRepository;
+import com.elice.project.ch1105.practice3.chat.repository.MessageRepository;
 import com.elice.project.ch1105.practice3.chat.domain.Chat;
 import com.elice.project.ch1105.practice3.chat.domain.Message;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.elice.project.ch1105.practice3.controller;
+package com.elice.project.ch1105.practice3.book.controller;
 
 import com.elice.project.ch1105.practice3.book.model.BookRequest;
 import com.elice.project.ch1105.practice3.book.model.BookResponse;

@@ -4,7 +4,7 @@ import com.elice.project.ch1105.practice3.book.domain.Book;
 import com.elice.project.ch1105.practice3.book.model.BookRequest;
 import com.elice.project.ch1105.practice3.book.model.BookResponse;
 import com.elice.project.ch1105.practice3.common.exception.DataNotFoundException;
-import com.elice.project.ch1105.practice3.repository.BookRepository;
+import com.elice.project.ch1105.practice3.book.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
