@@ -45,9 +45,6 @@ dependencies {
 	implementation 'org.mapstruct:mapstruct:1.5.5.Final'
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
 
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-
 	// thymeleaf 주입
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	// springboot 2.3 부터 Validation Starter 가 Spring Boot Web과 분리가 되면서 동작을 하지 않는다.
@@ -65,6 +62,9 @@ dependencies {
 
 	//WebSocket
 	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
 }
 
