@@ -21,8 +21,9 @@ dependencies {
 	//필요한 라이브러리 의존성 주입하는 공간
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	//의존성 라이브러리 추가(버전 이슈로 삭제)
-	//implementation 'org.springframework:spring-context:5.3.10'
+
+	// 인증 및 인가를 처리하기 위한 Spring Security 통합
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 
 	//AOP 주입
 	implementation 'org.springframework.boot:spring-boot-starter-aop'
@@ -30,10 +31,6 @@ dependencies {
 	// lombok 주입 Gradle 5.x 이상
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-
-	// jpa 주입
-//	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-//	implementation 'org.springframework.boot:spring-boot-starter-jdbc:3.2.0'
 
 	//thymeleaf 주입
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
@@ -47,6 +44,7 @@ dependencies {
 
 	// thymeleaf 주입
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
 	// springboot 2.3 부터 Validation Starter 가 Spring Boot Web과 분리가 되면서 동작을 하지 않는다.
 	// 그래서 dependencies 를 추가로 작성해야 한다.
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
