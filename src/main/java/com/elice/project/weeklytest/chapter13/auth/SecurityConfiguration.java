@@ -1,5 +1,6 @@
 package com.elice.project.weeklytest.chapter13.auth;
 
+import com.elice.project.weeklytest.chapter13.member.entity.Member;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -27,15 +28,20 @@ public class SecurityConfiguration {
                 .formLogin(formLogin -> formLogin
                         .loginPage("/login-form")
                         .loginProcessingUrl("/login")
-                        .defaultSuccessUrl("/subjects")
+                        .defaultSuccessUrl("/subjects", true)
                         .failureUrl("/login-form?error")
+                        .usernameParameter("user")
+                        .passwordParameter("password")
                 )
                 .logout(logout -> logout
                         .logoutSuccessUrl("/")
                 )
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/", "/login", "/subjects").permitAll()
-                        .requestMatchers("/add", "/subjects/add").hasRole("ADMIN")
+                        .requestMatchers("/add", "/subjects/add").hasRole(Member.Role.ADMIN.name())
+
+                        //허용 유저가 여러명일 경우
+                        //.requestMatchers("/my-page/**").hasAnyRole(Member.Role.USER.name(), Member.Role.ADMIN.name())
                         .anyRequest().authenticated()
                 )
                 .exceptionHandling(exceptionHandling -> exceptionHandling
